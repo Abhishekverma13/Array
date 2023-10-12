@@ -8,7 +8,7 @@ int main(){
     cin>>denominator;
     try{
         if(denominator==0)
-        throw ("Divide by zero");
+        throw ("Divide by zero";);
         numerator/denominator+1;
         }
         catch (const char* msg){
@@ -16,6 +16,6 @@ int main(){
 
     
     float division = numerator/denominator;
-    cout<<" \n divison \n"<<division<<endl;
+    cout<<divison;
     return 0;
 } 
